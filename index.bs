@@ -656,8 +656,8 @@ To <dfn>process the lock request queue</dfn> |queue|:
 1. [=list/For each=] |request| of |queue|:
     1. If |request| is [=grantable=], then run these steps:
         1. [=list/Remove=] |request| from |queue|.
-        1. Let |agent| be |request|'s [=lock request/agent=]
-        1. Let |manager| be |request|'s [=lock request/manager=]
+        1. Let |agent| be |request|'s [=lock request/agent=].
+        1. Let |manager| be |request|'s [=lock request/manager=].
         1. Let |clientId| be |request|'s [=lock request/clientId=].
         1. Let |name| be |request|'s [=lock request/name=].
         1. Let |mode| be |request|'s [=lock request/mode=].
